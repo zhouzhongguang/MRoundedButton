@@ -56,6 +56,7 @@
                                            backgroundViewHeight * i,
                                            backgroundViewWidth,
                                            backgroundViewHeight);
+        //背景
         MRHollowBackgroundView *backgroundView = [[MRHollowBackgroundView alloc] initWithFrame:backgroundRect];
         backgroundView.foregroundColor = foregroundColorArray[i];
         [self.view addSubview:backgroundView];

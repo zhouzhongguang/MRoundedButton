@@ -229,6 +229,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Michael WU";
 				TargetAttributes = {
+					C113691C18C3441100034926 = {
+						DevelopmentTeam = QEQB6EZ8G4;
+					};
 					C113693D18C3441100034926 = {
 						TestTargetID = C113691C18C3441100034926;
 					};
@@ -421,10 +424,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = QEQB6EZ8G4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimateButton/AnimateButton-Prefix.pch";
 				INFOPLIST_FILE = "AnimateButton/AnimateButton-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelwu.AnimateButton.zzg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -435,10 +440,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = QEQB6EZ8G4;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AnimateButton/AnimateButton-Prefix.pch";
 				INFOPLIST_FILE = "AnimateButton/AnimateButton-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelwu.AnimateButton.zzg;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

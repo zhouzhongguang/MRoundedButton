@@ -65,7 +65,7 @@ static CGRect CGRectEdgeInset(CGRect rect, UIEdgeInsets insets)
         self.textLabel.numberOfLines = 1;
         if (MR_VERSION_IOS_8)
         {
-            self.maskView = self.textLabel;
+            self.maskView = self.textLabel;//这种用法，设置self的背景色，背景色会从文字中透出，没有文字的部分透明
         }
         else
         {
@@ -578,7 +578,7 @@ NSString *const kMRoundedButtonRestoreSelectedState         = @"restoreSelectedS
 }
 
 - (void)drawRect:(CGRect)rect
-{
+{//画空洞的代码
     CGContextRef context = UIGraphicsGetCurrentContext();
     CGContextSaveGState(context);
     
@@ -610,7 +610,7 @@ NSString *const kMRoundedButtonRestoreSelectedState         = @"restoreSelectedS
     
     CGContextEOFillPath(context);
     CGContextSetAllowsAntialiasing(context, YES);
-    CGContextSetShouldAntialias(context, YES);
+    CGContextSetShouldAntialias(context, YES);//清除锯齿
     CGContextRestoreGState(context);
 }
 

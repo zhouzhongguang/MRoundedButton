@@ -79,6 +79,7 @@ extern NSString *const kMRoundedButtonRestoreSelectedState;
 
 @end
 
+///能在子视图背后形成一个空洞的背景图
 @interface MRHollowBackgroundView : UIView
 
 @property (nonatomic, strong)   UIColor *foregroundColor;
